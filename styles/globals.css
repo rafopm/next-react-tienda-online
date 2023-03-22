@@ -1,0 +1,29 @@
+html,
+body {
+padding: 0;
+margin: 0;
+  font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    background-color: #efefef;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+h2{
+  font-size: 62px;
+  margin: 20px 0 0;
+}
