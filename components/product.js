@@ -2,8 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import style from "../styles/product.module.css";
 import { convertToPath } from "@/lib/utils";
+import CartButton from "./CartButton";
 
-export default function Product({ item, showAs }) {
+export default function Product({ item, showAs, qty }) {
   if (showAs === "Page") {
     return (
       <div className={style.page}>
@@ -23,7 +24,7 @@ export default function Product({ item, showAs }) {
           <div className={style.price}>${item.price}</div>
           <div>{item.description}</div>
           <div>
-            <button>Add to cart</button>
+            <CartButton item={item} />
           </div>
         </div>
       </div>
@@ -31,7 +32,27 @@ export default function Product({ item, showAs }) {
   }
 
   if (showAs === "ListItem") {
-    return <div>Page</div>;
+    return (
+      <div className={style.listItem}>
+        <div>
+          <Image
+            src={item.image}
+            alt={item.description}
+            width={100}
+            height={100}
+          />
+        </div>
+        <div>
+          <h3>
+            <div>{item.title}</div>
+          </h3>
+
+          <div>{item.price}</div>
+          {qty === 0 ? "" : <div>{qty} units</div>}
+          {qty === 0 ? "" : <div>Subtotal: ${qty * item.price}</div>}
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -55,7 +76,7 @@ export default function Product({ item, showAs }) {
 
       <div>${item.price}</div>
       <div>
-        <button>Add to cart</button>
+        <CartButton item={item} />
       </div>
     </div>
   );

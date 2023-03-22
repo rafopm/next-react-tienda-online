@@ -46,6 +46,17 @@
     min-width: 700px;
 }
 
+.listItem{
+  display: flex;
+  gap: 10px;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 0;
+}
+
+.listItem h3{
+  margin: 5px;
+}
+
 @keyframes scale {
     from{
         transform: scale(0);
