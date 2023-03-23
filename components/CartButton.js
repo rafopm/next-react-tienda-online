@@ -1,4 +1,4 @@
-import { useAppContext } from "./stateWrapper";
+import { useAppContext } from "./StateWrapper";
 import style from "../styles/cartButton.module.css";
 
 export default function CartButton({ item }) {

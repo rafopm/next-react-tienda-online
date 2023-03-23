@@ -1,7 +1,7 @@
 import Head from "next/head";
 import style from "../styles/layout.module.css";
 import Menu from "./Menu";
-import ShoppingCart from "./shoppingCart";
+import ShoppingCart from "./ShoppingCart";
 
 export default function Layout({ children, title }) {
   return (

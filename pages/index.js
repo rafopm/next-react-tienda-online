@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Layout from "@/components/layout";
+import Layout from "@/components/Layout";
 import { getLatestItems } from "@/services/ItemService";
-import Product from "@/components/product";
+import Product from "@/components/Product";
 import styleProduct from "../styles/product.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +17,7 @@ export default function Home({ items }) {
         <div className={styles.bannerBackground}>
           <div className={styles.bannerInfo}>
             <h2>Shop the Summer 2023 Collection</h2>
-            <p>dsdsads dsada sadsada</p>
+            <p>Colección de temporada</p>
           </div>
         </div>
       </div>

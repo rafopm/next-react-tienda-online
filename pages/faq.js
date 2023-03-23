@@ -1,4 +1,4 @@
-import Layout from "@/components/layout";
+import Layout from "@/components/Layout";
 import Link from "next/link";
 import style from "../styles/faq.module.css";
 
@@ -10,7 +10,7 @@ export default function FAQ() {
 
         <div>
           <h3>Pregunta</h3>
-          <p>jlkfdjsalñk fdlksajfñ adsjflkds  dlkañfj dsa fjkdlasñ fdsjaklf  jflkdsajlñfkd</p>
+          <p>Respuesta a la pregunta de faq</p>
         </div>
       </div>
     </Layout>
