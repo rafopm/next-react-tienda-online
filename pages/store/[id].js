@@ -1,5 +1,5 @@
-import Layout from "../../components/payout";
-import Product from "../../components/lroduct";
+import Layout from "../../components/layout";
+import Product from "../../components/product";
 import { getItemsData, getPathFromIds } from "../../lib/utils";
 
 export default function ProductPage( {productInfo}) {
