@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import StateWrapper from "../components/StateWrapper";
+import StateWrapper from "../components/stateWrapper";
 
 export default function App({ Component, pageProps }) {
   return (

@@ -1,5 +1,5 @@
-import Product from "./Product";
-import { useAppContext } from "./StateWrapper";
+import Product from "./product";
+import { useAppContext } from "./stateWrapper";
 import style from "../styles/shoppingCart.module.css";
 
 export default function ShoppingCart() {

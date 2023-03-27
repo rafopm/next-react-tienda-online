@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import styles from "../styles/Home.module.css";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { getLatestItems } from "../services/ItemService";
-import Product from "../components/Product";
+import Product from "../components/product";
 import styleProduct from "../styles/product.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
