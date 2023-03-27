@@ -1,6 +1,6 @@
-import Layout from "@/components/Layout";
-import Product from "@/components/Product";
-import { getItems } from "@/services/ItemService";
+import Layout from "../../components/Layout";
+import Product from "../../components/Product";
+import { getItems } from "../../services/ItemService";
 import Image from "next/image";
 import styleItems from "../../styles/product.module.css";
 
