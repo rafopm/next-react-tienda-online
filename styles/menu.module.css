@@ -20,3 +20,12 @@
     background-color: rgb(38,111,180);
     color: white;
 }
+
+
+@media (max-width: 767px) {
+    .menu{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+}

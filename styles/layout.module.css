@@ -2,3 +2,10 @@
     width: 1220px;
     margin: 50px auto;
 }
+
+@media (max-width: 767px) {
+    .container{
+        width: 100%;
+        margin: 0px auto;
+    }
+}
