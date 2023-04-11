@@ -27,3 +27,10 @@ h2{
   font-size: 62px;
   margin: 20px 0 0;
 }
+
+@media (max-width: 767px) {
+  h2{
+    font-size: 40px;
+    margin: 10px 0 0;
+  }
+}
