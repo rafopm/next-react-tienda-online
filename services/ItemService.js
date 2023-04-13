@@ -1,8 +1,6 @@
 export async function getItems(){
     const request = await fetch("https://nodejs-mongo-express-crud.vercel.app/products");
-    console.log("requests console: ",request);
     const items = await request.json();
-
     return items;
 }
 
